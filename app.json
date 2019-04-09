@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/content/home/home",
+    "pages/index/address/addressEdit/edit",
+    "pages/index/address/addressList/list",
+    "pages/index/content/mine/mine",
+    "pages/index/content/shoppingcart/shoppingcart",
+    "pages/index/content/online/online",
+    "pages/index/about/about",
+    "pages/index/product/productList/list",
+    "pages/index/product/productDetail/detail",
+    "pages/index/order/order",
+    "pages/index/order/orderState0/list",
+    "pages/index/order/orderState1/list",
+    "pages/index/order/orderState2/list",
+    "pages/index/order/orderState3/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/content/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/content/shoppingcart/shoppingcart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/index/content/online/online",
+        "text": "在线咨询"
+      },
+      {
+        "pagePath": "pages/index/content/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

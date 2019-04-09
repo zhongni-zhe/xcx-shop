@@ -1,0 +1,86 @@
+.shoppingcart-body {
+  height:100%;
+}
+.cart-item {
+  height: 190rpx;
+  width:100%;
+  display:flex;
+  padding: 10px 10rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #ccc;
+}
+.cart-item .cart-check {
+  flex:1;
+  padding:20rpx;
+  align-items:center;
+  display: flex;
+}
+.cart-item .cart-img {
+  width:200rpx;
+  flex: 1;
+}
+.cart-item .cart-img image {
+  width: 200rpx;
+  height: 150rpx;
+}
+.cart-item .cart-content {
+   padding: 0 10rpx;
+   flex: 9;
+   height:150rpx;
+   position:  relative;
+}
+.cart-item .cart-c-h{
+  font-size: 36rpx;
+}
+.cart-item .cart-c-price {
+  position: absolute;
+  bottom:5rpx;
+  left: 5rpx;
+  font-size: 36rpx;
+  color:#f00;
+}
+.cart-item .cart-c-sum {
+  position: absolute;
+  right:5rpx;
+  bottom:5rpx;
+}
+
+.shoppingcart-foot {
+  position:fixed;
+  bottom: 0rpx;
+  width:100%;
+  left:0rpx;
+  height:120rpx;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+.shoppingcart-foot .cart-check {
+  flex: 2;
+  display: flex;
+  align-items:center;
+  padding:0 20rpx;
+  font-size: 32rpx;
+}
+.shoppingcart-foot .jiesuan-text {
+  flex: 4;
+  padding: 10rpx;
+}
+.shoppingcart-foot .jiesuan-total {
+  text-align: right;
+  line-height: 50rpx;
+}
+.shoppingcart-foot .jiesuan-yunfei {
+  text-align: right;
+  line-height: 50rpx;
+}
+.shoppingcart-foot .jiesuan-btn {
+  flex: 2;
+  width: 160rpx;
+  height: 120rpx;
+  text-align:center;
+  line-height: 120rpx;
+  color:#fff;
+  float: right;
+  background:#fd7100;
+  font-size:32rpx;
+}

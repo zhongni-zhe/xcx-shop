@@ -1,0 +1,116 @@
+.shop-desc{
+  height:160rpx;
+  padding:20rpx 30rpx;
+  background: #fff;
+}
+.shop-desc .shop-h{
+  font-size: 32rpx;
+  margin-bottom:20rpx;
+}
+.shop-desc .shop-h{
+  font-size:32rpx;
+}
+.shop-desc .shop-price{
+  color: #f00;
+}
+.shop-desc .shop-old-price{
+  color: #ddd;
+  text-decoration:  line-through;
+}
+.line-btn-setNum {
+  height:90rpx;
+  display: flex;
+  align-items: center;
+  padding:0 30rpx;
+  border-top: 15rpx solid #eee;
+  border-bottom: 15rpx solid #eee;
+}
+.line-btn-setNum view {
+  flex: 1;
+  font-size: 32rpx;
+}
+.shop-detail-tabs {
+  display:flex;
+  height:80rpx;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.shop-detail-tabs view{
+  flex: 1;
+  text-align: center;
+}
+.shop-detail-tabsc {
+  padding: 20rpx 30rpx;
+}
+.shop-detail-bottom {
+  display: flex;
+  height:80rpx;
+  position: fixed;
+  width: 100%;
+  bottom:0rpx;
+  left: 0rpx;
+  z-index: 10;
+  border-top: 1px solid #ddd;
+}
+.shop-detail-bottom .car {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #fff;
+}
+.shop-detail-bottom .btn-addCar{
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+  color: #fff;
+  display: flex;
+}
+.shop-detail-bottom .btn-buy {
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: #fff;
+  display: flex;
+}
+
+.maskLayer {
+  height:100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position:fixed;
+  top: 0;
+  left:0;
+}
+.choose {
+  position:fixed;
+  bottom: 80rpx;
+  left:0;
+  width: 100%;
+  z-index:9;
+  height:260rpx;
+  background: #fff;
+}
+.choose .shop-info {
+  width: 100%;
+  box-sizing: border;
+  padding: 30rpx 30rpx 30rpx 180rpx;
+  position: relative;
+}
+.choose .shop-info image{
+  width: 140rpx;
+  height:120rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 30rpx;
+}
+.choose .shop-sum{
+  display:flex;
+  padding: 15rpx 30rpx;
+  border-top: 1rpx solid #ccc;
+}
+.choose .shop-sum view {
+  flex: 1;
+}

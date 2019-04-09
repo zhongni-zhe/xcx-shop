@@ -1,0 +1,42 @@
+.order-index {
+  padding: 15rpx 0;
+  background:#eee;
+}
+.order-index .order-index-header {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding:0 20rpx;
+  background: #fff;
+  border-top: 1rpx solid #ccc;
+}
+.order-index .order-index-header .h-left {
+  float:left;
+}
+.order-index .order-index-header .h-right {
+  float: right;
+}
+.order-index .order-index-body {
+  border-top: 1rpx solid #ccc;
+  background: #fff;
+  border-bottom: 1rpx solid #ccc;
+}
+.order-index .order-index-body .order-index-links{
+  display: flex;
+  width: 100%;
+  height:120rpx;
+  line-height: 120rpx;
+}
+.order-index .order-index-body view{
+  flex: 1;
+  text-align: center;
+}
+
+.other-fun {
+  border-top: 1rpx solid #ccc;
+}
+.other-fun view{
+  height:80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}

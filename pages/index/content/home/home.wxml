@@ -1,0 +1,50 @@
+<!--banner-->
+<view class="swiper-wrap">
+  <swiper
+    indicator-dots="true"
+    autoplay="true"
+    interval="2000"
+    duration="500"
+    style="height:200px;"
+  >
+    <block wx:for="{{imgUrls}}" wx:key="imgUrls" >
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%" height="400" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--banner end-->
+
+<!-- menu -->
+<view class="home-menu">
+  <view bindtap="jumpToProductList">产品列表</view>
+  <view>加入我们</view>
+  <view bindtap="jumpToAbout">联系我们</view>
+</view>
+<!-- menu end-->
+
+<!-- demo-list -->
+<view class="home-demos">
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <view>
+      <image src="{{item}}" class="demo-image" width="100%" height="400" />
+    </view>
+  </block>
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <view>
+      <image src="{{item}}" class="demo-image" width="100%" height="400" />
+    </view>
+  </block>
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <view>
+      <image src="{{item}}" class="demo-image" width="100%" height="400" />
+    </view>
+  </block>
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <view>
+      <image src="{{item}}" class="demo-image" width="100%" height="400" />
+    </view>
+  </block>
+</view>
+<!-- demo-end -->

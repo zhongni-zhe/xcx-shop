@@ -1,0 +1,44 @@
+.addresslist-list{
+  padding: 20rpx;
+}
+.address-item {
+  border: 1rpx solid #ccc;
+  margin-bottom:20rpx;
+}
+.address-header {
+  padding: 20rpx; 
+  display: flex;
+}
+.address-footer {
+  height:80rpx;
+  padding: 0 10rpx;
+  border-top: 1px solid #ccc;  
+  display: flex;
+}
+.address-header .item-left {
+  flex: 1;
+}
+.address-header .item-left view{
+  width:100%;
+  font-size: 32rpx;
+}
+.address-header .item-right {
+  flex: 1;
+  text-align:right;
+  font-size: 32rpx;
+}
+
+.address-footer .is-defalut {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.address-footer .address-tool {
+  flex: 1;
+  text-align:right;
+  display: flex;
+  align-items: center;
+}
+.address-footer .address-tool view {
+  margin: 0 5rpx;
+}

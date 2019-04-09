@@ -1,0 +1,39 @@
+<!--订单索引导航-->
+<view class="order-index">
+  <view class="order-index-header">
+    <view class="h-left">全部订单</view>
+    <view class="h-right">查看全部订单></view>
+  </view>
+  <view class="order-index-body">
+    <view class="order-index-links">
+        <view>
+          待付款
+        </view>
+        <view>
+          待发货
+        </view>
+        <view>
+          待收货
+        </view>
+        <view>
+          已完成
+        </view>
+    </view>
+  </view>
+</view>
+
+<!--其它功能-->
+<view class="other-fun">
+    <view bindtap="jumpToAddress">
+      收货地址
+    </view>
+    <view>
+      在线地图
+    </view>
+    <view>
+      联系电话
+    </view>
+    <view bindtap="jumpToAbout">
+      关于我们
+    </view>
+</view>

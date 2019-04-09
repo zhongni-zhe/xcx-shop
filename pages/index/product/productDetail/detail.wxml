@@ -1,0 +1,67 @@
+<!--banner-->
+<view class="swiper-wrap">
+  <swiper
+    indicator-dots="true"
+    autoplay="true"
+    interval="2000"
+    duration="500"
+    style="height:200px;"
+  >
+    <block wx:for="{{imgUrls}}" wx:key="imgUrls" >
+      <swiper-item style="height:600px" >
+        <image src="{{item}}" class="slide-image" width="100%"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!--描述-->
+<view class="shop-desc">
+  <view class="shop-h">经典体验套餐</view>
+  <view class="shop-price">￥498</view>
+  <view class="shop-old-price">￥598</view>
+</view>
+
+<!--选择数量-->
+<view class="line-btn-setNum" bindtap='chooseSezi'>
+  <view>规格/数量</view>
+  <view><text></text></view>
+  <view style="text-align:right">></view>
+</view>
+
+<!--选项卡-->
+<view class="shop-detail-tabs">
+  <view>商品详情</view>
+  <view>商品属性</view>
+</view>
+
+<!--选项卡内容-->
+<view class="shop-detail-tabsc">
+  <view class="content">
+    <text>我是内容</text>
+  </view>
+  <view class="attribute" style="display:none" >
+    <text>我是属性</text>
+  </view>
+</view>
+<view class="shop-detail-bottom">
+  <view class="car">车</view>
+  <view class="btn-addCar">加入购物车</view>
+  <view class="btn-buy">立即购买</view>
+</view>
+
+<view class='maskLayer' wx:if="{{chooseSize}}" bindtap='hideModal'></view>
+<view class='choose' wx:if="{{chooseSize}}" animation='{{animationData}}'>
+  <view class="shop-info">
+    <image src="https://goss2.vcg.com/creative/vcg/800/version23/VCG41152834667.jpg" />
+    <view class="shop-info-text">
+      <view>￥498</view>
+      <view>库存1000件</view>
+      <view>已选</view>
+    </view>
+  </view>
+  <view class="shop-sum">
+    <view>购买数量</view>
+    <view style=''><num-controller num="{{num}}"></num-controller></view>
+  </view>
+</view>

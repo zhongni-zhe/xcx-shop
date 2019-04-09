@@ -1,0 +1,31 @@
+<view class="productTabs">
+  <view>销量</view>
+  <view>新品</view>
+  <view>价格</view>
+</view>
+<view class="shop-list-wrap">
+  <view class="shop-list">
+    <view class="shop-item" bindtap="jumpToShopDetail">
+      <view class="shop-img">
+        <image src="https://goss.vcg.com/creative/vcg/800/version23/VCG41171292804.jpg" />
+      </view>
+      <view class="shop-content">
+        <view class="shop-h">经典体验套餐</view>
+        <view class="shop-price">￥498</view>
+        <view class="shop-old-price">￥598</view>
+        <view class="shop-car"></view>
+      </view>
+    </view>
+    <view class="shop-item" bindtap="jumpToShopDetail">
+      <view class="shop-img">
+        <image src="https://goss.vcg.com/creative/vcg/800/version23/VCG41171292804.jpg" />
+      </view>
+      <view class="shop-content">
+        <view class="shop-h">经典体验套餐</view>
+        <view class="shop-price">￥498</view>
+        <view class="shop-old-price">￥598</view>
+        <view class="shop-car"></view>
+      </view>
+    </view>
+  </view>
+</view>

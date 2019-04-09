@@ -1,0 +1,50 @@
+<view class="addresslist-list">
+  <view class="address-item">
+    <view class="address-header">
+      <view class="item-left">
+        <view>收件人： xxx</view>
+        <view>辽宁省 沈阳市 和平区</view>
+        <view>发射点发</view>
+      </view>
+      <view class="item-right">
+        <text>15033465149</text>
+      </view>
+    </view>
+    <view class="address-footer">
+      <view class="is-defalut">
+        <icon type="circle" size="26" />
+        默认地址
+      </view>
+      <view class="address-tool">
+        <view>编辑</view>
+        <view>删除</view>
+      </view>
+    </view>
+  </view>
+  <view class="address-item">
+    <view class="address-header">
+      <view class="item-left">
+        <view>收件人： xxx</view>
+        <view>辽宁省 沈阳市 和平区</view>
+        <view>发射点发</view>
+      </view>
+      <view class="item-right">
+        <text>15033465149</text>
+      </view>
+    </view>
+    <view class="address-footer">
+      <view class="is-defalut">
+        <icon type="circle" size="26" />
+        默认地址
+      </view>
+      <view class="address-tool">
+        <view>编辑</view>
+        <view>删除</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="bottom-button" bindtap="jumpToAddressEdit">
+  添加收货地址
+</view>

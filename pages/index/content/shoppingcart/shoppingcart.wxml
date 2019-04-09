@@ -1,0 +1,56 @@
+<!--content-->
+<view class="shoppingcart-body">
+    <view class="shoppingcart-content">
+      <view class="shopcartlist" >
+        <block>
+          <view class="cart-item">
+            <view class="cart-check">
+              <icon type="circle" size="20" class="default-check" />
+            </view>
+            <view class="cart-img">
+              <image src="http://dpic.tiankong.com/sh/l8/QJ6305138976.jpg?x-oss-process=style/240h" width="100%" height="400" />
+            </view>
+            <view class="cart-content">
+              <view class="cart-c-h" >我是标题我是标题</view>
+              <view class="cart-c-price">￥104.00</view>
+              <view class="cart-c-sum" >
+              <num-controller num="{{num}}"></num-controller>
+              </view>
+            </view>
+          </view>
+        </block>
+        <block>
+          <view class="cart-item">
+            <view class="cart-check">
+              <icon type="circle" size="20" class="default-check" />
+            </view>
+            <view class="cart-img">
+              <image src="http://dpic.tiankong.com/sh/l8/QJ6305138976.jpg?x-oss-process=style/240h" width="100%" height="400" />
+            </view>
+            <view class="cart-content">
+              <view class="cart-c-h" >我是标题我是标题</view>
+              <view class="cart-c-price">￥104.00</view>
+              <view class="cart-c-sum" >
+              <num-controller num="{{num}}"></num-controller>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="shoppingcart-foot">
+      <view class="cart-check">
+        <icon type="circle" size="20" class="default-check" />
+         全选
+      </view>
+      <view class="jiesuan-text">
+        <view class="jiesuan-total">总价：￥0.00元</view>
+        <view class="jiesuan-yunfei">不含运费</view>
+      </view>
+      <view class="jiesuan-btn">
+        去结算
+      </view>
+    </view>
+</view>
+
+
